@@ -1,0 +1,110 @@
+.heroSection {
+    background-color: #f7f7f7;
+}
+.heroSection .heroContent {
+    width: 100%;
+    max-width: 1352px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 69px;
+    padding: 46px 29px 240px;
+}
+.heroSection .heroContent .albumimage {
+    /* background-image: linear-gradient(to bottom, #fff, #363636); */
+    width: 100%;
+    max-width: 270px;
+}
+.heroSection .heroContent .albumimage img {
+    width: 100%;
+}
+.heroSection .heroContent .album-wrapper{
+    padding-top: 6px;
+}
+.heroSection .heroContent .albumDetails .albumTitle {
+    /* font-family: SFProDisplay-bold; */
+    font-size: 36px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 13px;
+}
+.heroSection .heroContent .albumDetails .albumSubTitle {
+    font-size: 23px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.22;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 14px;
+}
+.heroSection .heroContent .albumDetails .albumAuthor {
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.78;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8f95a3;
+    margin-bottom: 42.5px;
+}
+.heroSection .heroContent .albumDetails .hr {
+    max-width: 608.02px;
+    width: 100%;
+    border: 1px solid rgba(92, 98, 110, 0.1);
+}
+.heroSection .heroContent .albumDetails .hr-1 {
+    max-width: 608.02px;
+    width: 100%;
+    border: 1px solid rgba(92, 98, 110, 0.1);
+    margin-bottom: 26px;
+}
+.heroSection .heroContent .albumDetails .forAlbum {
+    width: 100%;
+    max-width: 568px;
+    display: flex;
+    justify-content: space-between;
+    padding:12px 0;
+}
+.heroSection .heroContent .albumDetails .forAlbum .iconDetailWrapper {
+    display: flex;
+    gap: 10px;
+}
+.heroSection .heroContent .albumDetails .forAlbum .iconDetailWrapper .icon {
+}
+.heroSection .heroContent .albumDetails .forAlbum .iconDetailWrapper .label {
+    font-size: 16px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3a4649;
+}
+.heroSection .heroContent .albumDetails .bussinessBtns {
+}
+.heroSection .heroContent .albumDetails .bussinessBtns button {
+    font-size: 15px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding: 7px 16px;
+    border-radius: 6px;
+    background-color: #8f95a3;
+    border: none;
+    outline: none;
+}
+.heroSection .heroContent .albumDetails .bussinessBtns button:last-child {
+    margin-left: 8px;
+}

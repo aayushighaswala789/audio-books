@@ -1,0 +1,47 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap"); */
+/* @font-face {
+    font-family: "SFProDisplay-regular";
+    src: url("/src/assets/fonts/SFPRODISPLAYREGULAR.OTF") format("OTF");
+} */
+@import url('https://v1.fontapi.ir/css/SFProDisplay');
+
+/* @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap'); */
+/* @font-face {
+    font-family: "SFProDisplay";
+    src:url("/src/assets/fonts/FontsFree-Net-SFProDisplay-Bold.ttf");
+    font-weight: bold;
+} */
+/* @font-face {
+    font-family: "SFProDisplay-medium";
+    src:url("/src/assets/fonts/SFPRODISPLAYMEDIUM.OTF") format("OTF");
+} */
+@font-face {
+    font-family: 'Georgia';
+    src: url('./assets/fonts/Georgia.eot');
+    src: url('./assets/fonts/Georgia.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Georgia.woff2') format('woff2'),
+        url('./assets/fonts/Georgia.woff') format('woff'),
+        url('./assets/fonts/Georgia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Georgia Bold';
+    src: url('./assets/fonts/Georgia-Bold.eot');
+    src: url('./assets/fonts/Georgia-Bold.eot?#iefix') format('embedded-opentype'),
+        url('./assets/fonts/Georgia-Bold.woff2') format('woff2'),
+        url('./assets/fonts/Georgia-Bold.woff') format('woff'),
+        url('./assets/fonts/Georgia-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SF Pro Display";
+}

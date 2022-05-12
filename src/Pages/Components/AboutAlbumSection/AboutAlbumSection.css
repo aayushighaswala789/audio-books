@@ -1,0 +1,328 @@
+.about-album-section {
+    width: 100%;
+    max-width: 1352px;
+    margin: -175px auto 0;
+    background-color: #fff;
+}
+.about-album-section .album-nav {
+    display: flex;
+    padding: 31px 0 0;
+    border-bottom: solid 2px #f7f7f7;
+    position: relative;
+}
+.about-album-section .album-nav .album-item {
+    font-family: "SF Pro Display";
+    margin: 0 31px;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: rgba(58, 70, 73, 0.31);
+    cursor: pointer;
+    padding-bottom: 22px;
+    text-align: center;
+    padding: 0 15px 24px;
+    min-width: 110px;
+}
+.header .nav-items .nav-item:hover {
+    color: #009aeb;
+}
+.about-album-section .album-nav .album-item:hover {
+    border-bottom: solid 3px #3c8de4;
+}
+.about-album-section .album-nav .active {
+    border-bottom: solid 3px #3c8de4;
+    background-size: 12px;
+    color: #3a4649;
+    position: relative;
+    right: 3px;
+}
+.about-album-section .album-nav .active:after {
+    content: "";
+    position: relative;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAsBAMAAAD/fQfGAAAAJ1BMVEVHcEw4REg6RkgwQEA5RUg6RUg4RUg5RUg5RUg6Rkg5RUg4R0c6RkkjPIfkAAAADHRSTlMAQYAQwNBlmuCw8CSL5sqXAAAA0UlEQVQoz2NgAAHmdJ8zZ9yFGRCAWesMCJxKQAhtPQMBRw1gItxrziwXFBQUX3OmGSZkceY4WNoSocznDNSQnDMKEAbjmWNQOfYzpyEMzjMOMJt7jkMYNmcEYKbmnIDQMifgrtlzBmK+zhG4EA9Ug85xuBALTOgQ1YTYes4gAUeQi33OoIACkFpUcBLodjQhoGlz0IUmMPSgCy1gQBc5c4BOQkeNY9CFDjHo0FkIiyMIuB4jVAOAKQ8NJGDE0FHMeAwGxXYMskgYJCUIIgAoSQAAk9iUYbwNwJgAAAAASUVORK5CYII=);
+    width: 14px;
+    height: 14px;
+    background-size: contain;
+    background-position: center;
+    display: inline-block;
+    background-repeat: no-repeat;
+    margin-left: 12px;
+}
+.about-album-section .album-wrapper {
+    padding: 41px 0 0 43px;
+    display: flex;
+}
+.about-album-section .album-wrapper .album-audio-wrapper {
+    max-width: 518px;
+    width: 100%;
+    padding-top: 14px;
+    background: #f7f7f7;
+}
+.audio-image{
+    bottom: 26px;
+}
+.audio-image ~ .info {
+    position: absolute;
+    z-index: 1;
+    color: #fff;
+    bottom: 32px;
+    left: 40%;
+    top: 15px;
+    transform: translate(-50%);
+}
+.about-album-section .album-wrapper .album-audio-wrapper div:first-child div:first-child {
+    position: relative;
+}
+.about-album-section .album-wrapper .album-audio-wrapper .audio .audio-books {
+    position: absolute;
+    bottom: 10px;
+    left: -25px;
+}
+.about-album-section .album-wrapper .album-audio-wrapper .audio .audio-books div:first-child div:nth-child(2){
+    color: #fff !important;
+}
+.about-album-section .album-right-part {
+    max-width: 834px;
+    width: 100%;
+    position: relative;
+    margin-right: 64px;
+}
+.about-album-section .album-right-part .content-wrapper {
+    position: relative;
+    font-family: Georgia;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.64;
+    letter-spacing: 0;
+    text-align: left;
+    color: #3a4649;
+    margin-bottom: 27px;
+}
+/* .about-album-section .album-right-part .content-wrapper:not(:first-child):after {
+    width: 727px;
+    height: 681px;
+    position: absolute;
+    z-index: 1111;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 82%);
+} */
+.about-album-section .album-right-part .heading {
+    font-family: Georgia Bold;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.7;
+    letter-spacing: 0;
+    text-align: left;
+    color: #3a4649;
+    margin-bottom: 3px;
+}
+.about-album-section .album-right-part .wrapper {
+    height: 681px;
+    display: flex;
+    position: absolute;
+    /* max-width: 732px; */
+    width: 100%;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), #fff 82%);
+    bottom: 0;
+    justify-content: center;
+    align-items: flex-end;
+}
+.about-album-section .album-right-part .wrapper .text {
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #000;
+    margin-bottom: 20px;
+}
+.about-album-section .album-right-part .wrapper .btn {
+    max-width: 261px;
+    width: 100%;
+    height: 60px;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-size: 20px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.3;
+    letter-spacing: normal;
+    text-align: center;
+    color: #fff;
+    border: solid 1px #0285e6;
+    background-image: linear-gradient(to bottom, #009beb, #0285e6);
+    position: relative;
+    left: 3px;
+}
+.about-album-section .album-left-part {
+    max-width: 518px;
+    width: 100%;
+    background: #f7f7f7;
+    padding: 63px 58px;
+}
+
+.about-album-section .album-left-part .heading {
+    font-family: SFProDisplay;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.2;
+    letter-spacing: normal;
+    text-align: left;
+    color: #3a4649;
+}
+.about-album-section .album-left-part .rectangle {
+    max-width: 391px;
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: -7px 7px 20px 0 rgba(0, 0, 0, 0.16);
+    background-image: linear-gradient(to top, #262626 1%, #4d4d4d 98%);
+}
+.about-album-section .album-left-part .rectangle .right-part .progress-wrapper {
+    display: flex;
+}
+.about-album-section .album-left-part .rectangle .right-part .text {
+    font-family: SFProDisplay;
+    font-size: 16px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.19;
+    letter-spacing: normal;
+    text-align: left;
+    color: #fff;
+    padding: 36px 0 16px 112px;
+}
+.about-album-section .album-left-part .rectangle .right-part .image-wrapper img {
+    width: 40px;
+}
+.about-album-section .album-left-part .rectangle .right-part .image-wrapper {
+    max-width: 40px;
+    width: 100%;
+    min-height: 40px;
+    margin-left: 20px;
+}
+.about-album-section .album-left-part .rectangle .right-part .progress-bar {
+    max-width: 145px;
+    width: 100%;
+    height: 5px;
+    background-color: #d3e3f0;
+}
+.about-album-section .album-left-part .rectangle .right-part .circle {
+    max-width: 14px;
+    width: 100%;
+    height: 14px;
+    border-radius: 50%;
+    background-image: linear-gradient(to bottom, #009beb, #0285e6);
+}
+.about-album-section .album-right-part .content-wrapper+h2.heading {
+    margin-bottom: 10px;
+}
+.about-album-section .album-right-part .content-wrapper~.content-wrapper {
+    margin-bottom: 25px;
+}
+.about-album-section .album-right-part .content-wrapper~.content-wrapper+h2.heading {
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+.about-album-section .album-right-part .content-wrapper~.content-wrapper~.content-wrapper {
+    line-height: 1.5;
+}
+.about-album-section .album-right-part .wrapper .button-wrapper {
+    position: relative;
+    bottom: 29px;
+    right: 0;
+    margin-right: 17px;
+}
+@media (max-width:991px) {
+    .heroSection .heroContent {
+        flex-wrap: wrap;
+    }
+    .heroSection .heroContent .albumimage {
+        max-width: 365px !important;
+        /* width: 100%; */
+        margin: 0 auto;
+    }
+    .about-album-section .album-wrapper {
+        padding: 43px;
+        flex-wrap: wrap;
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .album-wrapper {
+        margin: 0 auto;
+    }
+    .about-album-section .album-wrapper .album-audio-wrapper{
+        margin-bottom: 30px;
+    }
+}
+@media (max-width:767px) {
+    .header-content {
+        flex-wrap: wrap;
+    }
+    .header .nav-items {
+        flex-wrap: wrap;
+        background-color: #f8f8f8;
+        padding: 10px;
+        margin-top: 10px;
+        flex: 0 0 100%;
+        max-width: 100%;
+        justify-content: space-between;
+    }
+    .header .nav-items .nav-item {
+        margin: 10px;
+        font-size: 18px;
+    }
+    .about-album-section .album-nav {
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 15px 15px 5px;
+    }
+    .about-album-section .album-nav .album-item {
+        margin: 0 0 15px;
+        font-size: 16px;
+        padding: 0 6px 15px;
+        min-width: auto;
+    }
+    .heroSection .heroContent .albumDetails .forAlbum {
+        flex-wrap: wrap;
+    }
+    .heroSection .heroContent .albumDetails .forAlbum .iconDetailWrapper {
+        margin-bottom: 15px;
+    }
+    .heroSection .heroContent .albumDetails .bussinessBtns button:last-child {
+        margin-left: 0 !important;
+    }
+    .heroSection .heroContent .albumDetails .bussinessBtns button {
+        margin-bottom: 10px;
+        display: block;
+        width: 100%;
+        text-align: center !important;
+    }
+    .heroSection .heroContent .albumDetails .bussinessBtns {
+        text-align: center;
+    }
+    .about-album-section .album-right-part {
+        margin-right: 0px;
+    }
+    .about-album-section .album-right-part .content-wrapper {
+        font-size: 16px;
+    }
+    .about-album-section .album-wrapper {
+        padding: 15px;
+    }
+    .home .heroSection .heroContent .albumDetails .albumTitle {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,30 @@
+.header {
+    border-bottom: solid 1px #c9d0d7;
+}
+.header-content {
+    width: 100%;
+    max-width: 1310px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    padding: 19px 21px 14px;
+}
+.header .nav-items {
+    display: flex;
+    padding-top: 4px;
+}
+.header .nav-items .nav-item {
+    cursor: pointer;
+    margin: 0 28px 0 0;
+    font-size: 19px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #8f95a3;
+}
+.header .nav-items .isActive {
+    color: #009aeb;
+}
